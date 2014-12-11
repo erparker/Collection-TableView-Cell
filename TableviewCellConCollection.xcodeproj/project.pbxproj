@@ -14,6 +14,7 @@
 		C5FE743D1A38FCBB00A8934D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FE743C1A38FCBB00A8934D /* Images.xcassets */; };
 		C5FE74401A38FCBB00A8934D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FE743E1A38FCBB00A8934D /* LaunchScreen.xib */; };
 		C5FE744C1A38FCBB00A8934D /* TableviewCellConCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FE744B1A38FCBB00A8934D /* TableviewCellConCollectionTests.m */; };
+		C5FE74571A38FE3400A8934D /* CollectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FE74561A38FE3400A8934D /* CollectionTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C5FE74451A38FCBB00A8934D /* TableviewCellConCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableviewCellConCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FE744A1A38FCBB00A8934D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5FE744B1A38FCBB00A8934D /* TableviewCellConCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableviewCellConCollectionTests.m; sourceTree = "<group>"; };
+		C5FE74551A38FE3400A8934D /* CollectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionTableViewCell.h; sourceTree = "<group>"; };
+		C5FE74561A38FE3400A8934D /* CollectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				C5FE74331A38FCBB00A8934D /* AppDelegate.h */,
 				C5FE74341A38FCBB00A8934D /* AppDelegate.m */,
+				C5FE74551A38FE3400A8934D /* CollectionTableViewCell.h */,
+				C5FE74561A38FE3400A8934D /* CollectionTableViewCell.m */,
 				C5FE74361A38FCBB00A8934D /* ViewController.h */,
 				C5FE74371A38FCBB00A8934D /* ViewController.m */,
 				C5FE74391A38FCBB00A8934D /* Main.storyboard */,
@@ -222,6 +227,7 @@
 				C5FE74381A38FCBB00A8934D /* ViewController.m in Sources */,
 				C5FE74351A38FCBB00A8934D /* AppDelegate.m in Sources */,
 				C5FE74321A38FCBB00A8934D /* main.m in Sources */,
+				C5FE74571A38FE3400A8934D /* CollectionTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
